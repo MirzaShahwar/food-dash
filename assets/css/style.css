@@ -1,0 +1,289 @@
+:root {
+    --bs-primary: #FF6000;
+    --bs-primary-hover: #eb7d39;
+    --bs-secondary: #FFEFE6;
+    --bs-grey: #939393;
+    --bs-blakish: #2A2A2A;
+    --bs-white: #FFFFFF;
+    --bs-light-grey: #939393;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.btn-primary {
+    background-color: var(--bs-primary) !important;
+    color: var(--bs-white) !important;
+    border-color: var(--bs-primary) !important;
+    font-family: "Lexend" !important;
+    font-weight: 600;
+}
+
+.btn-outline-primary {
+    color: var(--bs-primary) !important;
+    border-color: var(--bs-primary);
+    font-family: "Lexend";
+    font-weight: 600;
+}
+
+.btn-outline-primary:hover {
+    background-color: var(--bs-primary) !important;
+    color: var(--bs-white) !important;
+    border-color: var(--bs-primary) !important;
+}
+
+.header-bg-color {
+
+    background-color: var(--bs-secondary);
+    height: 90vh;
+
+}
+
+.heading-text {
+    font-family: "Lexend";
+    font-weight: 600;
+    font-size: 3.3rem;
+    line-height: 1.1;
+
+    span {
+        color: var(--bs-primary);
+    }
+}
+
+.heading-buttons {
+    width: 35%;
+
+}
+
+.delivery-section {
+    /* background-color: var(--bs-grey); */
+    /* border-radius: 30px; */
+    margin-left: 3.5rem;
+    margin-right: 3.5rem;
+}
+
+.delivery-section-innerdiv {
+    background-color: var(--bs-white);
+    border-radius: 30px;
+    box-shadow:
+        2px 0 2px -2px #939393,
+        /* right */
+        -2px 0 2px -2px #939393,
+        /* left */
+        0 4px 6px -2px #939393;
+    /* bottom */
+
+}
+
+.delivery-section-innerbox {
+    width: 33vw;
+
+    img {
+        height: 4rem;
+    }
+}
+
+.delivery-section-heading {
+    font-family: "Lexend";
+    font-weight: 600;
+    color: var(--bs-blakish);
+    font-size: 1.3rem;
+}
+
+.delivery-section-subheading {
+    font-family: "Lexend";
+    font-weight: 400;
+    color: var(--bs-grey);
+    font-size: 0.8rem;
+}
+
+.best-delivery-section {
+    margin-top: 8rem;
+}
+
+.best-delivery-section-heading {
+    font-family: "Lexend";
+    font-weight: 500;
+    color: var(--bs-blakish);
+    font-size: 2.5rem;
+
+    span {
+        color: var(--bs-primary);
+    }
+}
+
+.best-delivery-section-subheading {
+    font-family: "Lexend";
+    font-weight: 400;
+    color: var(--bs-light-grey);
+    font-size: 1.1rem;
+}
+
+.best-delivery-card-img {
+
+    border: dashed;
+    border-color: var(--bs-primary);
+
+}
+
+.best-delivery-card-heading {
+    font-family: "Lexend";
+    font-weight: 500;
+    color: var(--bs-blakish);
+    font-size: 1.1rem;
+}
+
+.best-delivery-card-link a {
+    font-family: "Lexend";
+    font-weight: 400;
+    color: var(--bs-primary);
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.regular-menu-subheading {
+    font-family: "Lexend";
+    font-weight: 300;
+    color: var(--bs-light-grey);
+    font-size: 0.9rem;
+
+}
+
+.regular-menu-btn {
+    right: 20px;
+}
+
+.regular-menu-btn .btn-primary {
+    font-weight: 400 !important;
+    font-size: 0.9 !important;
+}
+
+.regular-menu-items-card {
+    background-color: var(--bs-secondary);
+    margin-top: 10rem;
+}
+
+.regular-menu-items {
+    margin-top: 0rem;
+    padding-right: 8rem;
+    padding-left: 4rem;
+
+    .col-3 {
+        width: 25.5% !important;
+    }
+}
+
+.regular-menu-items-img {
+    border: dashed;
+    border-color: var(--bs-primary);
+    height: auto;
+    width: 75%;
+    left: 85%;
+}
+
+.regular-menu-items-heading {
+    margin-top: 7rem;
+    font-family: "Lexend";
+    font-weight: 500;
+    font-size: 1.3rem;
+    color: var(--bs-blakish);
+
+    span {
+        color: var(--bs-primary);
+    }
+}
+
+.regular-menu-items-rating {
+    width: 70%;
+}
+
+.regular-menu-items-rating-text {
+    font-family: "Lexend";
+    font-weight: 400;
+    color: var(--bs-light-grey);
+    font-size: 1.1rem;
+}
+
+.regular-menu-items-rate {
+
+    font-family: "Lexend";
+    font-weight: 500;
+    font-size: 2rem;
+    color: var(--bs-blakish);
+
+    .btn-primary {
+        font-size: 0.8rem;
+    }
+}
+
+.banner_img_left img {
+
+    width: 100vw;
+
+}
+
+.banner_img_right div img {
+    width: auto;
+    height: 46.5vh;
+}
+
+.footer {
+    background-color: var(--bs-secondary);
+}
+
+.border-top {
+    border-top: dashed !important;
+    border-color: var(--bs-primary) !important;
+}
+
+.ft-heading {
+    font-family: "Wendy One";
+    font-size: 2rem;
+    font-weight: 500;
+    color: var(--bs-blakish);
+
+    span {
+        color: var(--bs-primary);
+    }
+}
+
+.ft-rights {
+    font-family: "Lexend";
+    font-weight: 400;
+    font-size: 0.8rem;
+    color: var(--bs-grey);
+}
+
+.footer-menu-links {}
+
+.footer-menu-links li {
+
+    list-style-type: none;
+
+    a {
+        text-decoration: none;
+        color: var(--bs-grey);
+        font-size: 0.9rem;
+        font-family: "Lexend";
+        font-weight: 400;
+    }
+}
+
+.ft-subheading {
+    font-family: "Lexend";
+    font-size: 1.7rem;
+    font-weight: 500;
+    color: var(--bs-primary);
+}
+
+.ft-address {
+    color: var(--bs-grey);
+    font-size: 0.9rem;
+    font-family: "Lexend";
+    font-weight: 400;
+}
+.ft-follow img{
+    padding-left: 1.2rem;
+}
