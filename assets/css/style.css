@@ -121,7 +121,7 @@ body {
     font-size: 1.1rem;
 }
 
-.best-delivery-card-img {
+.best-delivery-card-img  img{
 
     border: dashed;
     border-color: var(--bs-primary);
@@ -175,12 +175,18 @@ body {
     }
 }
 
-.regular-menu-items-img {
+.regular-menu-items-img{
+    
+    height: auto;
+    width: 100%;
+    left: 85%;
+}
+.regular-menu-items-img img{
     border: dashed;
     border-color: var(--bs-primary);
     height: auto;
     width: 75%;
-    left: 85%;
+    
 }
 
 .regular-menu-items-heading {
